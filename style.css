@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(236, 126, 227);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height:100vh;
+    margin: 0;
+    background-color: #ffec3c;
+    
+}
+ .calculator{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    background-color: #d987e0;
+    box-shadow: 5px 5px 10px rgb(0,0,0,2);
+    height:68vh;
+    width: 340px;
+}
+.display{
+    /* border: 1px solid black;
+    width: 90px; */
+    margin-bottom: 40px;
+}
+input{
+    font-size: 2vw;
+    font-weight: 400;
+    height: 9vh;
+}
+#hr{
+    /* padding-top: 12px;    */
+    color: rgb(247, 66, 60);
+}
+
+.buttons{
+    margin-top: -20px;
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 7px;
+} 
+.buttons button:hover{
+    background-color: #ecb1b1;
+    transition: background-color 0.2s ease-in-out;
+}
+ .buttons button :active{
+     background-color: #fab7b7; 
+} 
+.digit{
+    font-weight: 400;
+    font-size: 2vw;
+    height: 8vh;
+    border-radius: 20px;
+}
+.operator{
+    font-weight: 800;
+    font-size: 2vw;
+    height: 8vh;
+    border-radius: 20px;
+
+}
+#clear{
+    font-weight: 800;
+    font-size: 2vw;
+    border-radius: 20px;
+
+}
+#bracket{
+    font-weight: 800;
+    font-size: 2vw;
+    border-radius: 20px;
+
+
+}
+#delete{
+    font-weight: 800;
+    font-size: 2vw;
+    border-radius: 20px;
+
+    
+}
+#calculate{
+    font-weight: 800;
+    font-size: 2vw;
+}
+#sh{
+    font-weight: 800;
+    font-size: 2vw;
+    border-radius: 20px;
+
+}
+
